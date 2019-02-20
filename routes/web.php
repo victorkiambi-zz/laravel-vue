@@ -44,3 +44,5 @@ Route::post('/submit', function (Request $request) {
 
     return redirect('/');
 });
+
+Route::post('/submit', 'ContactFormController@submit');
